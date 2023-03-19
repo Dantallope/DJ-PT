@@ -1,9 +1,16 @@
 import React from "react";
-import { ReactDOM } from "react";
+import Hero from './components/hero/Hero'
 
-const App = () => {
+const Hero = () => {
   return (
-    <div>App</div>
+    <div className="hero">
+      <div className="container">
+        <h1>Data</h1>
+        <h1 className="blue">Secured</h1>
+        <h1>Protection</h1>
+        <div><button>Learn More</button></div>
+      </div>
+    </div>
   )
   }
-  export default App
+  export default Hero
